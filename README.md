@@ -1,11 +1,5 @@
-## My Project
-
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+## Microsoft SQL Server on Amazon EC2 User Guide
+The open source version of the Microsoft SQL Server on Amazon EC2 User Guide. To submit feedback or requests for changes, submit an issue or make changes and submit a pull request.
 
 ## Security
 
