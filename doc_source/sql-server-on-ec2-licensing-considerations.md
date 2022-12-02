@@ -45,7 +45,7 @@ If you are using Dedicated Hosts, Amazon EC2 provides you with the number of phy
 
 ## License Mobility with SQL Server<a name="sql-server-on-ec2-licensing-considerations-mobility"></a>
 
-SQL Server licenses with active Software Assurance are eligible for Microsoft License Mobility and can be deployed on default or dedicated tenant Amazon EC2\. For more information on bringing SQL Server licenses with active Software Assurance to default tenant EC2, see [Microsoft License Mobility](https://docs.aws.amazon.com/windows/resources/licensemobility/)\.
+SQL Server licenses with active Software Assurance are eligible for Microsoft License Mobility and can be deployed on default or dedicated tenant Amazon EC2\. For more information on bringing SQL Server licenses with active Software Assurance to default tenant EC2, see [Microsoft License Mobility](http://aws.amazon.com/windows/resources/licensemobility/)\.
 
 It is also possible to bring SQL Server licenses without active Software Assurance to EC2 Dedicated Hosts\. To be eligible, the licenses must be purchased prior to October 1, 2019 or added as a true\-up under an active Enterprise Enrollment that was effective prior to October 1, 2019\. For additional FAQs about Dedicated Hosts, see the [Dedicated Hosts](http://aws.amazon.com/windows/faq/#dedicated-hosts) section of the *Amazon Web Services and Microsoft FAQ*\.
 

@@ -3,8 +3,8 @@
 This topic describes how you can find Microsoft SQL Server license\-included AMIs that you own or are provided by AWS using the Amazon Elastic Compute Cloud \(Amazon EC2\) console, the AWS Tools for PowerShell, or the AWS CLI\. You can also search the AWS Marketplace for SQL Server license\-included AMIs provided by AWS\. As you select a SQL Server license\-included AMI, consider the following requirements you might have for the instances that you'll launch:
 + The AWS Region
 + The operating system
-+ The architecture: 32\-bit \(`i386`\), 64\-bit \(`x86_64`\), or 64\-bit ARM \(`arm64`\)
-+ The [root device](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html) type: Amazon EBS\-backed \(`EBS`\) or instance store\-backed \(`INSTANCE-STORE`\)
++ The architecture: 64\-bit \(`x86_64`\)
++ The [root device](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/RootDeviceStorage.html) type: Amazon EBS\-backed \(`EBS`\)
 + The provider \(for example, Amazon Web Services\)
 + Additional software \(for example, SQL Server\)
 
