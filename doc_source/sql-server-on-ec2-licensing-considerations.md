@@ -14,7 +14,7 @@ There are many considerations for cost effectively licensing your Microsoft SQL 
 
 ## Choose a SQL Server edition<a name="sql-server-on-ec2-licensing-considerations-editions"></a>
 
-The edition of SQL Server that is used will determine the supported features your implementation will have available\. For example, the edition determines the maximum compute capacity used by a single instance of the SQL Server Database Engine, and the high availability options you might implement\. For a comparison of SQL Server editions and supported features, see [Editions and supported features of SQL Server 2019](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2019?view=sql-server-ver16) in the Microsoft documentation\.
+The edition of SQL Server that is used will determine the supported features your implementation will have available\. For example, the edition determines the maximum compute capacity used by a single instance of the SQL Server Database Engine, and the high availability options you might implement\. For a comparison of SQL Server editions and supported features, see [Editions and supported features of SQL Server 2022](https://learn.microsoft.com/en-us/sql/sql-server/what-s-new-in-sql-server-2022?view=sql-server-ver16) in the Microsoft documentation\.
 
 ## Purchase SQL Server from AWS<a name="sql-server-on-ec2-licensing-considerations-purchasing"></a>
 
@@ -25,7 +25,7 @@ You can utilize Microsoft SQL Server licenses included from AWS\. You can choose
 + SQL Server Enterprise
 
 **Note**  
-SQL Server 2019 Developer Edition is eligible for use in non\-production, development, and test workloads\. Once downloaded from Microsoft, you can bring and install SQL Server 2019 Developer Edition on Amazon EC2 instances in the AWS Cloud\. Dedicated infrastructure is not required for SQL Server 2019 Developer\. For more information, see [SQL Server 2019 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) edition\.
+SQL Server Developer edition is eligible for use in non\-production, development, and test workloads\. Once downloaded from Microsoft, you can bring and install SQL Server Developer edition on Amazon EC2 instances in the AWS Cloud\. Dedicated infrastructure is not required for SQL Server Developer edition\. For more information, see [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)\.
 
 ## Use BYOL for SQL Server on AWS<a name="sql-server-on-ec2-licensing-considerations-byol"></a>
 
@@ -41,7 +41,7 @@ SQL Server licenses without Software Assurance can be deployed on Amazon Elastic
 
 If you are licensing SQL Server under Microsoft License Mobility through Software Assurance, the number of licenses required varies based on the instance type, version of SQL Server, and the Microsoft licensing model you choose\. For assistance with virtual core licensing calculations under the Microsoft Product Terms based on the instance type, see [SQL License Mobility](http://aws.amazon.com/windows/resources/licensemobility/sql/)\.
 
-If you are using Dedicated Hosts, Amazon EC2 provides you with the number of physical cores installed on the Dedicated Host\. Using this information, you can calculate the number of SQL Server licenses that you need to bring in\. For more information, see [Amazon EC2 Dedicated Hosts Pricing](http://aws.amazon.com/ec2/dedicated-hosts/pricing/#host-configuration) and the [SQL Server 2019 licensing guide](https://download.microsoft.com/download/6/6/0/66078040-86d8-4f6e-b0c5-e9919bbcb537/SQL%20Server%202019%20Licensing%20guide.pdf)\.
+If you are using Dedicated Hosts, Amazon EC2 provides you with the number of physical cores installed on the Dedicated Host\. Using this information, you can calculate the number of SQL Server licenses that you need to bring in\. For more information, see [Amazon EC2 Dedicated Hosts Pricing](http://aws.amazon.com/ec2/dedicated-hosts/pricing/#host-configuration) and the [SQL Server 2022 licensing guide](https://download.microsoft.com/download/9/3/d/93d32de6-f268-45ed-ba25-2f9a6756b6af/SQL_Server_2022_Licensing_guide.pdf)\.
 
 ## License Mobility with SQL Server<a name="sql-server-on-ec2-licensing-considerations-mobility"></a>
 
